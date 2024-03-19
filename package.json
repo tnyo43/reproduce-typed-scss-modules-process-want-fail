@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "generate": "typed-scss-modules src/**/*.module.scss --implementation sass"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.72.0",
+    "typed-scss-modules": "^8.0.0"
+  }
 }
